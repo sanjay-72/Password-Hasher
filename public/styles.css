@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#nameTextEng {
+    margin: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(0, 255, 0);
+}
+
+#container {
+    text-align: center;
+    background: linear-gradient(to top left, black, rgba(0, 95, 0, 0.904));
+    padding: 3rem;
+    border-radius: .7rem;
+    width: 45rem;
+    margin: 4rem auto;
+    outline: none;
+    border: 1px solid rgb(0, 255, 64);
+    border-radius: 1rem;
+    border-width: 1px;
+    transition: .3s;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.input-wrapper label {
+    font-size: 1.8rem;
+    text-align: left;
+    color: aqua;
+}
+
+.input-wrapper input {
+    padding: 1.2rem;
+    font-size: 2rem;
+    width: 100%;
+    margin-top: -1rem;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    background-color: black;
+    border: 1px solid gray;
+    color: rgb(0, 255, 0);
+    border-radius: .5rem;
+}
+
+.input-wrapper input:focus {
+    border: 1px solid rgb(0, 255, 0);
+}
+
+.input-wrapper input::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+    display: none;
+}
+
+#copyButton {
+    margin-top: 60px;
+    font-size: 200%;
+
+}
+
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:460px) {
+    html {
+        font-size: 52%;
+    }
+}
