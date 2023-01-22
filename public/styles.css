@@ -12,7 +12,7 @@ body {
     background-color: black;
     min-height: 100vh;
     overflow-y: hidden;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gruppo', bold;
 }
 
 
@@ -25,6 +25,7 @@ body {
 h1 {
     font-size: 2.5rem;
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
     color: rgb(0, 255, 0);
 }
 
@@ -88,12 +89,14 @@ h1 {
 a {
     text-decoration: none;
     text-decoration-color: none;
+    font-family: 'Great Vibes', cursive;
 }
 
 a:hover {
     text-decoration: underline;
     color: yellow;
     font-size: 2rem;
+    font-family: 'Gruppo', bold;
 }
 
 @media screen and (max-width:460px) {

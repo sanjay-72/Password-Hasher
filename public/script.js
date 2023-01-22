@@ -4,7 +4,6 @@ var CopyButton = document.getElementById("copyButton");
 CopyButton.disabled = true;
 
 var hash = CryptoJS.MD5("MyMessage");
-// alert(hash);
 function copyFunction() {
     var copyText = document.getElementById("md5Output");
     copyText.select();
