@@ -13,6 +13,8 @@ function copyFunction() {
     setTimeout(function () {
         CopyButton.innerHTML = "Copy";
         Input.focus();
+        Input.select();
+        copyText.setSelectionRange(0, 99999);
     }, 1000);
 }
 
@@ -25,6 +27,7 @@ Input.addEventListener("input", function () {
     else {
         Output.value = "";
         CopyButton.disabled = true;
+
     }
 
 });
