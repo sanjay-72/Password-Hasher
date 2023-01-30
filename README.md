@@ -4,4 +4,8 @@ This is a simple Java Script project that generates md5 hash for the provided te
 # Preview
 ![image](https://user-images.githubusercontent.com/94333583/213917694-0637750c-3223-47a5-9adb-8f6b12f49c37.png)
 
--> User can copy the md5 hash by using provided button.
+## Features
+-> Simple Interface.<br>
+-> Page is interactive to user on their input.<br>
+-> Highly Accurate.<br>
+-> User can directly copy the md5 hash by using provided button.<br>
